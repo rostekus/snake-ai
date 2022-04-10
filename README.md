@@ -5,12 +5,8 @@
 My first trial Reinforcement Learning Project.
 
 ## Description
-I was inspired by this [youtube video](https://www.youtube.com/watch?v=cO5g5qLrLSo&t=349s), where was shown basics of RL.
-What suprised me the most was how easy you can create RL models but i didn't want to use gym module, i had clear plan in my head. What i was longing for is creation of my own enviroment for my project. I was aware that i couldn't be complicated so i chose good old Snake game. I can't imagine how many hours I spent as a kid playing it on my Nokia 6300.
-
-Unfortunettly, even after countless hours of tinkiering with parametrs I couldn't get satisfying resault. The maximum score the AI obtained was six. Ususually it gets in loop and turns around.
-What I tried was to add additional piunishment if NN loops but it didn't change anything.
-Proposed solutions:
+I was inspired by this [youtube video](https://www.youtube.com/watch?v=cO5g5qLrLSo&t=349s), where the basics of RL were shown. What suprised me the most was how easy you can create RL models. However, I didn't want to use gym module, I already had a clear plan in my head. What I was longing for is a creation of my own enviroment for my project. I was aware that it couldn't be complicated so i chose the good old Snake game. I can't imagine how many hours I’ve spent on playing it on my Nokia 6300 back in the day.
+Unfortunately, even after countless hours of tinkering with parameters, I couldn't get satisfying result. The maximum score the AI obtained was 6. Usually it gets in loop and turns around. What I tried, was placing additional punishment if NN loops but it didn't change anything. Proposed solutions:
 
 - add convolutional layers as for the state of game that AI obtains is just the array of one and zeros where each element correspond to the position of the snake or food on the grid.
 - longer training, as for now the the longest that training's done was only one milion steps
