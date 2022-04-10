@@ -18,5 +18,5 @@ setup(
     url="https://github.com/rostekus/snake_game",
     install_requires=install_requires,
     packages=find_packages(where="src", exclude="tests*"),
-    package_dir={"": "src"},
+    package_dir={"": "src"},package_data={'model': ['model']},
 )

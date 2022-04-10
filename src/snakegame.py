@@ -1,7 +1,7 @@
 import pygame
 import numpy as np
 from gym import Env
-from gym.spaces import Box, discrete
+from gym.spaces import Box, Discrete
 from keras.models import load_model
 
 from vector import Vector
@@ -239,5 +239,5 @@ class Game(Env):
 if __name__ == "__main__":
 
     game = Game()
-    model = load_model("/model/model.h5")
+    model = load_model("./model/model.h5")
     game.render(model, 100)

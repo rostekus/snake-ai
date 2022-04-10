@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Snake_RL.egg-info/PKG-INFO
+src/Snake_RL.egg-info/SOURCES.txt
+src/Snake_RL.egg-info/dependency_links.txt
+src/Snake_RL.egg-info/not-zip-safe
+src/Snake_RL.egg-info/requires.txt
+src/Snake_RL.egg-info/top_level.txt

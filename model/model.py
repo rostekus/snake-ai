@@ -57,5 +57,5 @@ if __name__ == "__main__":
     print(env.step(1))
     print(states, actions)
     agent = Agent(actions, states)
-    agent.dqn.fit(env, nb_steps=100000, visualize=False, verbose=1)
+    agent.dqn.fit(env, nb_steps=10000000, visualize=False, verbose=1)
     agent.model.save("model.h5")
