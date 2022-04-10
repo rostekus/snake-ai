@@ -4,7 +4,7 @@
 
 My first trial Reinforcement Learning Project.
 
-# Snake AI
+## Description
 I was inspired by this [youtube video](https://www.youtube.com/watch?v=cO5g5qLrLSo&t=349s), where was shown basics of RL.
 What suprised me the most was how easy you can create RL models but i didn't want to use gym module, i had clear plan in my head. What i was longing for is creation of my own enviroment for my project. I was aware that i couldn't be complicated so i chose good old Snake game. I can't imagine how many hours I spent as a kid playing it on my Nokia 6300.
 
