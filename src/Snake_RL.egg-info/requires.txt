@@ -1,6 +1,0 @@
-traitlets==5.1.1
-
-[testing]
-pytest>=6.0
-flake8>=3.9
-tox>=3.24
